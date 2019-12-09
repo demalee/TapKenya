@@ -31,6 +31,8 @@
     27 => 'App\\Providers\\AuthServiceProvider',
     28 => 'App\\Providers\\EventServiceProvider',
     29 => 'App\\Providers\\RouteServiceProvider',
+    30 => 'Unisharp\\Ckeditor\\ServiceProvider',
+    31 => 'Torann\\GeoIP\\GeoIPServiceProvider',
   ),
   'eager' => 
   array (
@@ -50,6 +52,8 @@
     13 => 'App\\Providers\\AuthServiceProvider',
     14 => 'App\\Providers\\EventServiceProvider',
     15 => 'App\\Providers\\RouteServiceProvider',
+    16 => 'Unisharp\\Ckeditor\\ServiceProvider',
+    17 => 'Torann\\GeoIP\\GeoIPServiceProvider',
   ),
   'deferred' => 
   array (

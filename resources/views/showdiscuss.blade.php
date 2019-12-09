@@ -76,7 +76,7 @@
 
             
             @if(Auth::check())
-                 @foreach($discuss as $discus)
+                
 
                           <div class="card mb-3 for-sale" style="
                             margin-top: 30px;
@@ -90,7 +90,7 @@
                             <div class="card-title" style="padding-bottom: 0rem;">
                               <div class="container" style="padding-top: 1rem;">
                                   <div class="row">
-                                    @foreach($users as $user)
+                                    
                                         @if($discus->user_id == $user->id)
                                     <div class="col-xs-4">
                                       <img src="{{asset('/images/business_logo/'.$user->business_logo)}}" alt="business_logo" style="border-radius: 50%; width: 50px;">
@@ -101,7 +101,7 @@
                                           <p>{{$user->created_at}}                   {{$user->location_address}}</p>
                                           <p>{{$user->website_facebook_page}}</p>
                                         @endif
-                                      @endforeach
+                                     
                                     </div>
                                   </div>
                                 </div>
@@ -113,7 +113,7 @@
                                 <p class="card-text">{{$discus->discussion}}.</p>
                                 <p class="card-text"><small class="text-muted">Views: 543</small></p>
                               </div>
-                        @endforeach  </div>
+                         </div>
                  
             @endif
          <!--    <div class="card mb-3 for-sale" style="

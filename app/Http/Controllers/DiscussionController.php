@@ -58,9 +58,10 @@ class DiscussionController extends Controller
      */
     public function show($id)
     {
-        $discuss = Discussion::find($id);
-        $users = User::find($id);
-        return view('showdiscuss',compact('discuss','users'));
+        $discus = Discussion::find($id);
+        // dd($discus);
+        $user = User::find($id);
+        return view('showdiscuss',compact('discus','user'));
 
     }
 

@@ -1,5 +1,6 @@
 <?php
 
+
 return [
 
     /*
@@ -160,7 +161,7 @@ return [
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
         Unisharp\Ckeditor\ServiceProvider::class,
-        config.extraPlugins = 'emoji';
+       
         
     \Torann\GeoIP\GeoIPServiceProvider::class,
  
@@ -188,8 +189,8 @@ return [
         'Broadcast' => Illuminate\Support\Facades\Broadcast::class,
         'Bus' => Illuminate\Support\Facades\Bus::class,
         'Cache' => Illuminate\Support\Facades\Cache::class,
-        'Config' => Illuminate\Support\Facades\Config::,
-        'Cookie' => Illuminate\Support\Facades\Cookie::claclassss,
+        
+        'Cookie' => Illuminate\Support\Facades\Cookie::class,
         'Crypt' => Illuminate\Support\Facades\Crypt::class,
         'DB' => Illuminate\Support\Facades\DB::class,
         'Eloquent' => Illuminate\Database\Eloquent\Model::class,
@@ -214,7 +215,7 @@ return [
         'URL' => Illuminate\Support\Facades\URL::class,
         'Validator' => Illuminate\Support\Facades\Validator::class,
         'View' => Illuminate\Support\Facades\View::class,
-        config.extraPlugins = 'emoji';
+
          Unisharp\Ckeditor\ServiceProvider::class,
           'GeoIP' => \Torann\GeoIP\Facades\GeoIP::class,
     ],
